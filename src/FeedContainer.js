@@ -7,9 +7,7 @@ const FeedContainer = (props) => {
   const { posts } = props;
   return (
     <div className="feed-container">
-      {posts.map(post => (
-        <Post key={post.id} content={post} />
-      ))}
+      {posts && posts.map(post => <Post key={post.id} content={post} />)}
     </div>
   );
 };
