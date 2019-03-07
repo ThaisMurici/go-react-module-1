@@ -8,7 +8,7 @@ const FeedContainer = (props) => {
   return (
     <div className="feed-container">
       {posts.map(post => (
-        <Post content={post} />
+        <Post key={post.id} content={post} />
       ))}
     </div>
   );

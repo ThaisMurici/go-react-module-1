@@ -9,6 +9,7 @@ class App extends Component {
     counter: 0,
     posts: [
       {
+        id: 1,
         user: 'Fulano',
         date: moment('2019-03-06'),
         text:
@@ -16,6 +17,7 @@ class App extends Component {
         avatar: 'avatar1',
       },
       {
+        id: 2,
         user: 'Fulano2',
         date: moment('2019-03-05'),
         text:
@@ -23,6 +25,7 @@ class App extends Component {
         avatar: 'avatar2',
       },
       {
+        id: 3,
         user: 'Fulano3',
         date: moment('2019-03-07'),
         text:
